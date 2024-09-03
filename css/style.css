@@ -1,0 +1,116 @@
+*{
+    background-color: #0f0f0f ;
+    /* color: white; */
+}
+
+nav div a {
+    padding: 4px;
+    color: rgb(255, 255, 255) !important;
+}
+.navbar-toggler span{
+    color: rgb(179, 176, 176);
+}
+
+.about-text, 
+.animated-text, 
+.animated-text 
+#navbarNav,
+span, p,  a, ul, ol, li, 
+div, img, small,
+ h1, h2, h3, h4, h5, h6,
+ .accordian-item, 
+ .accordian-body, 
+ address, time
+ {
+    background-color: #1f1f1f !important;
+
+}
+
+h1, h2{
+    color: white !important;
+}
+
+.about-image{
+    margin: 30px;
+}
+.about-text a {
+    background-color: #313030 !important;
+    color: white;
+}
+
+#experiences div{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#experiences h3{
+    margin-left: 20px;
+    margin-bottom: 20px;
+} 
+#experiences ul{
+    margin-left: 20px;
+    align-items: center;
+    
+}
+#experiences li{
+    align-content: center !important;
+    align-items: center !important;
+    align-self: center !important
+}
+
+#experiences ul a{
+    width: 200px;
+    background-color: #2d2d2d !important;
+    align-items: center !important;
+    align-self: center !important
+}
+
+
+div, .about-image, nav li{
+    /* padding: 15px; */
+    border-radius: 40px !important;   
+}
+.container{
+    
+    /* border-radius: 10px; */
+}
+.about-text{
+    padding: 15px;
+    border-radius: 20px;
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 10px;
+    background-color: #a36635;
+}
+
+.accordion-button{
+    color: black !important;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: none !important;
+}
+
+.accordion-collapsed{
+    margin: 10px;
+}
+
+.separator {
+    border-left: 1px solid #fffcfc !important; /* Adjust color and width as needed */
+    height: 10px; /* Adjust height as needed */
+  }
+  
+.contacts-list a, time, address {
+    color: #fdc563 !important;
+}
+
+.service-list{
+    margin-bottom: 40px !important;
+}
+
+.img-fluid{
+    border: 2px stroke white !important;
+}
+
+.icon-inner{
+    background-color: #a36635 !important;
+}
